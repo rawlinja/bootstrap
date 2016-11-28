@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap",
+  "name": "haven-bootstrap-4",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
   "keywords": [
     "css",
@@ -11,25 +11,41 @@
     "framework",
     "web"
   ],
-  "homepage": "https://getbootstrap.com",
+  "homepage": "https://github.com/rawlinja/haven-bootstrap-4",
   "license": "MIT",
   "moduleType": "globals",
   "main": [
-    "scss/bootstrap.scss",
+    "dist/css/bootstrap.css",
     "dist/js/bootstrap.js"
   ],
   "ignore": [
-    "/.*",
-    "_config.yml",
+    ".*",
     "CNAME",
+    "CHANGELOG.md",
     "composer.json",
     "CONTRIBUTING.md",
     "docs",
+    "grunt",
+    "nuget",
+    "scss",
+    "js/dist",
     "js/tests",
-    "test-infra"
+    "test-infra",
+    "Gemfile",
+    "Gemfile.lock",
+    "Gruntfile.js",
+    "ISSUE_TEMPLATE.md",
+    "package.json",
+    "package.js",
+    "bower.json",
+    "sache.json"
   ],
   "dependencies": {
     "jquery": "1.9.1 - 3",
     "tether": "^1.3.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com:rawlinja/haven-bootstrap-4.git"
   }
 }
